@@ -1,0 +1,25 @@
+{
+  "name": "msw-leak-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "api": "tsx api.ts",
+    "start": "tsx --expose-gc server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bugsnag/js": "^8.1.2",
+    "express": "^4.21.2",
+    "msw": "^2.7.0",
+    "unleash-client": "^6.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
